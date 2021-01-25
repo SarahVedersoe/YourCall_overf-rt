@@ -15,9 +15,19 @@
 /*CSS til hjemmeside*/
 
 
+
+.ast-header-break-point .ast-mobile-menu-buttons .ast-button-wrap .ast-mobile-menu-buttons-minimal {
+ font-size: 40px;
+}
+
 .elementor-72 .elementor-element.elementor-element-01abc34 > .elementor-element-populated > .elementor-background-overlay {
 background: fixed;
 }
+
+.ast-small-footer-section.ast-small-footer-section-1 {
+	margin-left: 30%;
+}
+
 
 /*
 .wpforms-container-full .wpforms-form .wpforms-field-label {
@@ -57,7 +67,7 @@ element.style {
 .main-header-menu.ast-nav-menu.ast-flex.ast-justify-content-flex-end.submenu-with-border {
 }
 .ast-header-break-point .main-header-bar .main-header-bar-navigation .main-header-menu {
-	background-color: #0005;
+	background-color: #000000FA;
 	
 }
 
@@ -83,9 +93,7 @@ body {
 	background-color: #000;
 }
 
-.main-header-bar-navigation.toggle-on li {
-	padding-left: 50px;
-}
+
 
 .site-logo-img img {
 	margin-left: 50px;
@@ -114,7 +122,7 @@ span.menu-toggle-icon {
 
 span.menu-toggle-icon {
 	margin-right: 10px;
-	
+	}
 
 	.ast-container {
 		    background: -moz-linear-gradient(black, transparent); /* FF 3.6+ */  
@@ -129,7 +137,7 @@ span.menu-toggle-icon {
 	
 	} 	
 	
-	} }
+	} 
 
 html, body {
 	
@@ -137,6 +145,16 @@ html, body {
 	margin: auto auto;
 	overflow: hidden;
 	overflow-y: visible;
+
+}
+
+.main-navigation ul .menu-item .menu-link {
+	font-size: 22px;
+	font-family: Bebas Neue;
+	line-height: 85px;
+	text-align: center;
+	letter-spacing: 3.5px;
+	font-weight: 500;
 
 }
 
@@ -151,8 +169,10 @@ a: hover {
 
 .main-header-bar-wrap, .main-header-bar {
 background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,0.8354692218684349) 0%, rgba(255,255,255,0) 100%);
+background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(255,255,255,0) 100%);
 z-index: 10000;	
+	
+	
 
 
 }
@@ -162,7 +182,7 @@ z-index: 10000;
 .main-header-bar {
 	position: fixed;
 	width: 100vw;
-		height: 70px;
+		height: 120px;
 }
 
 .ast-search-icon, .slide-search.astra-search-icon {
