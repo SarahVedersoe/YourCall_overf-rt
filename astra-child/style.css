@@ -31,17 +31,7 @@
 background: fixed;
 }
 
-.ast-small-footer-section.ast-small-footer-section-1 {
-	margin-left: 30%;
-}
 
-
-/*
-.wpforms-container-full .wpforms-form .wpforms-field-label {
-	font-family: Bebas Neue;
-	font-size: 30px;
-	 
-} */
 
 #wpforms-submit-491 {
 	width: 150px;
@@ -171,16 +161,17 @@ span.menu-toggle-icon {
 	.elementor-33 .elementor-element.elementor-element-772d60dd .elementor-text-editor{
 		width: 180px;
 	}
+	.elementor-72 .elementor-element.elementor-element-b6d85c8 .elementor-image img {
+		width: 150px;
+		margin-left: -50px;
+	}	
 }
 @media only screen and (max-width: 600px) {
 	
-	.main-header-bar-navigation.toggle-on li {
-	padding-left: 20px;
-}
 
 
 	.ast-flex.main-header-container {
-	margin-left: 0px;
+	margin-left: 0;
 }
 
 	
@@ -352,6 +343,7 @@ z-index: 10000;
 		max-height: auto;
 		
 	}
+
 	.elementor-33 .elementor-element.elementor-element-1ddc149 .elementor-heading-title {
 		text-align: center;
 		font-size: 15px;
@@ -369,6 +361,59 @@ z-index: 10000;
 		width: 400px;
 	}
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+		.elementor-33 .elementor-element.elementor-element-16870581:not(.elementor-motion-effects-element-type-background), .elementor-33 .elementor-element.elementor-element-16870581 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+	
+		margin-bottom: -130px;
+
+	}
+	
+	.elementor-780 .elementor-element.elementor-element-9ad3d9d > .elementor-element-populated {
+		margin: 40px;
+	}
+
+	.elementor-780 .elementor-element.elementor-element-2bf79d8 {
+    text-align: center;
+		margin-top: 100px; }
+	
+	.scroll {
+		width: 70px;
+	}
+
+	.scroll-wrapper {
+		margin-left: -300px;
+		padding-left: 0;
+	}
+		
+	.elementor-33 .elementor-element.elementor-element-4277eb7 .elementor-heading-title {
+		font-size: 30px;
+	}
+	
+		.elementor-33 .elementor-element.elementor-element-2c55fc45 .elementor-heading-title {
+		font-size: 85px;
+	}
+	
+		.elementor-33 .elementor-element.elementor-element-560aeb36 .elementor-image img {
+		max-width: 100%;
+		max-height: auto;
+		
+	}
+	.elementor-33 .elementor-element.elementor-element-1ddc149 .elementor-heading-title {
+		text-align: center;
+		font-size: 15px;
+	}
+
+	.elementor-33 .elementor-element.elementor-element-16870581:not(.elementor-motion-effects-element-type-background), .elementor-33 .elementor-element.elementor-element-16870581 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+		padding-top: 80px;
+		padding-bottom: 130px;
+	}
+	.elementor-33 .elementor-element.elementor-element-ee6fd75 .elementor-text-editor {
+		width: 400px;
+	}
+}
+	
+
 	
 @media only screen and (max-width: 1200px) {
 
@@ -405,6 +450,10 @@ main  {
     width: 100%;
     max-width: 100%;
 	margin-top: -20px; }
+}
+
+.elementor-829 .elementor-element.elementor-element-757f903:not(.elementor-motion-effects-element-type-background), .elementor-829 .elementor-element.elementor-element-757f903 > .elementor-motion-effects-container > .elementor-motion-effects-layer, .elementor-829 .elementor-element.elementor-element-20b6cf0:not(.elementor-motion-effects-element-type-background), .elementor-829 .elementor-element.elementor-element-20b6cf0 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+	background-size: cover;
 }
 
 @media only screen and (min-width: 2100px) {
