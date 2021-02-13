@@ -361,11 +361,11 @@ z-index: 10000;
 		width: 70px;
 	}
 
+
 	.scroll-wrapper {
-		margin-left: -300px;
+		margin-left: 0;
 		padding-left: 0;
 	}
-		
 	.elementor-33 .elementor-element .elementor-element-4277eb7 .elementor-heading-title {
 		font-size: 30px;
 	}
