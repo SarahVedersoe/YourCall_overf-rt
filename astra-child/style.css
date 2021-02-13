@@ -432,15 +432,35 @@ main  {
 	}
 }
 
-@media screen and (min-width: 1900px) {
-.elementor-780 .elementor-element .elementor-element-32e6f9a .elementor-image img {
+@media only screen and (min-width: 1900px) {
+.elementor-780 .elementor-element.elementor-element-32e6f9a .elementor-image img {
     width: 100%;
     max-width: 100%;
 	margin-top: -20px; }
-}
 
-.elementor-829 .elementor-element .elementor-element-757f903:not(.elementor-motion-effects-element-type-background), .elementor-829 .elementor-element .elementor-element-757f903 > .elementor-motion-effects-container > .elementor-motion-effects-layer, .elementor-829 .elementor-element .elementor-element-20b6cf0:not(.elementor-motion-effects-element-type-background), .elementor-829 .elementor-element .elementor-element-20b6cf0 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-	background-size: cover;
+.elementor-33 .elementor-element.elementor-element-2c55fc45 .elementor-heading-title {
+    color: #ffffff;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 180px;
+    font-weight: 500;
+    padding-top: 100px;
+    letter-spacing: 7.3px;
+}
+.elementor-33 .elementor-element.elementor-element-ee6fd75 {
+    color: #bfbfbf;
+    font-family: "Arial", Sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.8em;
+	
+	}
+	
+	.elementor-33 .elementor-element.elementor-element-560aeb36 .elementor-image img {
+    width: 100%;
+    padding-top: 65px;
+		max-width: 100%; 
+	}
+
 }
 
 @media screen and (min-width: 2100px) {
